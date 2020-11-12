@@ -1,0 +1,2064 @@
+EESchema Schematic File Version 4
+LIBS:PBJ EU-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Spankulator-rescue:Molex_47257-spankulator-rescue J1
+U 1 1 5FA6E56F
+P 1700 850
+F 0 "J1" H 1500 950 50  0000 C CNN
+F 1 "Molex_47257-spankulator-rescue" H 1732 1084 50  0001 C CNN
+F 2 "sputterizer:Molex-0472570001" H 1700 850 50  0001 C CNN
+F 3 "" H 1700 850 50  0001 C CNN
+F 4 "WM17366-ND" H 1700 850 50  0001 C CNN "Digi-Key Part"
+	1    1700 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Spankulator-rescue:Molex_47257-spankulator-rescue J2
+U 1 1 5FA6EBE7
+P 1700 1850
+F 0 "J2" H 1500 1950 50  0000 C CNN
+F 1 "Molex_47257-spankulator-rescue" H 1732 2084 50  0001 C CNN
+F 2 "sputterizer:Molex-0472570001" H 1700 1850 50  0001 C CNN
+F 3 "" H 1700 1850 50  0001 C CNN
+F 4 "WM17366-ND" H 1700 1850 50  0001 C CNN "Digi-Key Part"
+	1    1700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Spankulator-rescue:Molex_47257-spankulator-rescue J3
+U 1 1 5FA6F50C
+P 1700 2550
+F 0 "J3" H 1500 2650 50  0000 C CNN
+F 1 "Molex_47257-spankulator-rescue" H 1732 2784 50  0001 C CNN
+F 2 "sputterizer:Molex-0472570001" H 1700 2550 50  0001 C CNN
+F 3 "" H 1700 2550 50  0001 C CNN
+F 4 "WM17366-ND" H 1700 2550 50  0001 C CNN "Digi-Key Part"
+	1    1700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Spankulator-rescue:Molex_47257-spankulator-rescue J4
+U 1 1 5FA6FE1F
+P 1700 3550
+F 0 "J4" H 1500 3650 50  0000 C CNN
+F 1 "Molex_47257-spankulator-rescue" H 1732 3784 50  0001 C CNN
+F 2 "sputterizer:Molex-0472570001" H 1700 3550 50  0001 C CNN
+F 3 "" H 1700 3550 50  0001 C CNN
+F 4 "WM17366-ND" H 1700 3550 50  0001 C CNN "Digi-Key Part"
+	1    1700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5FA71858
+P 2100 700
+F 0 "TP1" H 2158 772 50  0000 L CNN
+F 1 "TestPoint" H 2158 727 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2300 700 50  0001 C CNN
+F 3 "~" H 2300 700 50  0001 C CNN
+F 4 "36-5006-ND" H 2100 700 50  0001 C CNN "Digi-Key Part"
+	1    2100 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5FA719B7
+P 2100 1650
+F 0 "TP2" H 2158 1722 50  0000 L CNN
+F 1 "TestPoint" H 2158 1677 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2300 1650 50  0001 C CNN
+F 3 "~" H 2300 1650 50  0001 C CNN
+F 4 "36-5006-ND" H 2100 1650 50  0001 C CNN "Digi-Key Part"
+	1    2100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5FA71FFA
+P 2100 2450
+F 0 "TP3" H 2158 2522 50  0000 L CNN
+F 1 "TestPoint" H 2158 2477 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2300 2450 50  0001 C CNN
+F 3 "~" H 2300 2450 50  0001 C CNN
+F 4 "36-5006-ND" H 2100 2450 50  0001 C CNN "Digi-Key Part"
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5FA725DB
+P 2100 3450
+F 0 "TP4" H 2158 3522 50  0000 L CNN
+F 1 "TestPoint" H 2158 3477 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 2300 3450 50  0001 C CNN
+F 3 "~" H 2300 3450 50  0001 C CNN
+F 4 "36-5006-ND" H 2100 3450 50  0001 C CNN "Digi-Key Part"
+	1    2100 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 850  2100 850 
+Wire Wire Line
+	1900 2550 2100 2550
+$Comp
+L power:GND #PWR01
+U 1 1 5FA7441E
+P 1700 1150
+F 0 "#PWR01" H 1700 900 50  0001 C CNN
+F 1 "GND" H 1705 977 50  0001 C CNN
+F 2 "" H 1700 1150 50  0001 C CNN
+F 3 "" H 1700 1150 50  0001 C CNN
+	1    1700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FA74A3D
+P 1700 2150
+F 0 "#PWR02" H 1700 1900 50  0001 C CNN
+F 1 "GND" H 1705 1977 50  0001 C CNN
+F 2 "" H 1700 2150 50  0001 C CNN
+F 3 "" H 1700 2150 50  0001 C CNN
+	1    1700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5FA75104
+P 1700 2850
+F 0 "#PWR03" H 1700 2600 50  0001 C CNN
+F 1 "GND" H 1705 2677 50  0001 C CNN
+F 2 "" H 1700 2850 50  0001 C CNN
+F 3 "" H 1700 2850 50  0001 C CNN
+	1    1700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FA755A9
+P 1700 3850
+F 0 "#PWR04" H 1700 3600 50  0001 C CNN
+F 1 "GND" H 1705 3677 50  0001 C CNN
+F 2 "" H 1700 3850 50  0001 C CNN
+F 3 "" H 1700 3850 50  0001 C CNN
+	1    1700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J7
+U 1 1 5FC04BF4
+P 1850 6700
+F 0 "J7" H 1900 7217 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 1900 7126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 1850 6700 50  0001 C CNN
+F 3 "~" H 1850 6700 50  0001 C CNN
+F 4 "S2011EC-08-ND" H 1850 6700 50  0001 C CNN "Digi-Key Part"
+	1    1850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 5FC0C3F4
+P 3350 6950
+F 0 "C1" H 3100 7000 50  0000 L CNN
+F 1 "10uF" H 3100 6900 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 3350 6950 50  0001 C CNN
+F 3 "~" H 3350 6950 50  0001 C CNN
+F 4 "478-7366-1-ND" H 3350 6950 50  0001 C CNN "Digi-Key Part"
+	1    3350 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6850 3350 6800
+Wire Wire Line
+	3350 6800 3500 6800
+Wire Wire Line
+	2150 6500 2250 6500
+Wire Wire Line
+	2250 6500 2250 6600
+Wire Wire Line
+	2250 7250 3350 7250
+Wire Wire Line
+	3800 7250 3800 7100
+Wire Wire Line
+	3350 7050 3350 7250
+Connection ~ 3350 7250
+Wire Wire Line
+	3350 7250 3800 7250
+Wire Wire Line
+	3800 7250 4200 7250
+Wire Wire Line
+	4200 7250 4200 7050
+Connection ~ 3800 7250
+Wire Wire Line
+	4100 6800 4200 6800
+Wire Wire Line
+	4200 6800 4200 6850
+$Comp
+L power:GND #PWR025
+U 1 1 5FC8D4AE
+P 2250 7350
+F 0 "#PWR025" H 2250 7100 50  0001 C CNN
+F 1 "GND" H 2255 7177 50  0001 C CNN
+F 2 "" H 2250 7350 50  0001 C CNN
+F 3 "" H 2250 7350 50  0001 C CNN
+	1    2250 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 7350 2250 7250
+Connection ~ 2250 7250
+Connection ~ 4200 6800
+Connection ~ 4200 7250
+Wire Wire Line
+	4200 6800 4350 6800
+$Comp
+L Regulator_Linear:L7805 U7
+U 1 1 5FCFEA15
+P 3800 6800
+F 0 "U7" H 3800 7042 50  0000 C CNN
+F 1 "MC7805CTG" H 3800 6951 50  0000 C CNN
+F 2 "digikey-footprints:TO-220-3" H 3800 6800 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf" H 3800 6800 50  0001 C CNN
+F 4 "MC7805CTGOS-ND" H 3800 6800 50  0001 C CNN "Digi-Key Part"
+	1    3800 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR026
+U 1 1 5FD1106F
+P 4350 6700
+F 0 "#PWR026" H 4350 6550 50  0001 C CNN
+F 1 "+5V" H 4365 6873 50  0000 C CNN
+F 2 "" H 4350 6700 50  0001 C CNN
+F 3 "" H 4350 6700 50  0001 C CNN
+	1    4350 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6700 4350 6800
+$Comp
+L power:-12V #PWR024
+U 1 1 5FD23CEC
+P 2250 6400
+F 0 "#PWR024" H 2250 6500 50  0001 C CNN
+F 1 "-12V" V 2265 6528 50  0000 L CNN
+F 2 "" H 2250 6400 50  0001 C CNN
+F 3 "" H 2250 6400 50  0001 C CNN
+	1    2250 6400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 6400 2250 6400
+Wire Wire Line
+	2150 6600 2250 6600
+Connection ~ 2250 6600
+Wire Wire Line
+	1650 6500 1550 6500
+Wire Wire Line
+	1550 6500 1550 6600
+Wire Wire Line
+	1550 7250 2250 7250
+Wire Wire Line
+	1650 6600 1550 6600
+Connection ~ 1550 6600
+$Comp
+L power:-12V #PWR022
+U 1 1 5FDB31BE
+P 1550 6400
+F 0 "#PWR022" H 1550 6500 50  0001 C CNN
+F 1 "-12V" V 1565 6528 50  0000 L CNN
+F 2 "" H 1550 6400 50  0001 C CNN
+F 3 "" H 1550 6400 50  0001 C CNN
+	1    1550 6400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 6400 1650 6400
+$Comp
+L power:+12V #PWR021
+U 1 1 5FDC7302
+P 1450 6800
+F 0 "#PWR021" H 1450 6650 50  0001 C CNN
+F 1 "+12V" V 1465 6928 50  0000 L CNN
+F 2 "" H 1450 6800 50  0001 C CNN
+F 3 "" H 1450 6800 50  0001 C CNN
+	1    1450 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 6800 1650 6800
+Wire Wire Line
+	1550 6600 1550 7250
+Wire Wire Line
+	2250 6600 2250 7250
+Connection ~ 3350 6800
+$Comp
+L power:+12V #PWR016
+U 1 1 5FFBC37D
+P 8200 2500
+F 0 "#PWR016" H 8200 2350 50  0001 C CNN
+F 1 "+12V" V 8215 2628 50  0000 L CNN
+F 2 "" H 8200 2500 50  0001 C CNN
+F 3 "" H 8200 2500 50  0001 C CNN
+	1    8200 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 2600 7550 2600
+$Comp
+L power:-12V #PWR028
+U 1 1 5FFD027A
+P 8200 2600
+F 0 "#PWR028" H 8200 2700 50  0001 C CNN
+F 1 "-12V" V 8215 2728 50  0000 L CNN
+F 2 "" H 8200 2600 50  0001 C CNN
+F 3 "" H 8200 2600 50  0001 C CNN
+	1    8200 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 2600 8200 2600
+Text GLabel 8200 2700 2    50   UnSpc ~ 0
+Tip1
+Text GLabel 7400 2700 0    50   UnSpc ~ 0
+SW1
+Text GLabel 8200 2800 2    50   UnSpc ~ 0
+Tip2
+Text GLabel 7400 2800 0    50   UnSpc ~ 0
+SW2
+Text GLabel 8200 2900 2    50   UnSpc ~ 0
+Tip3
+Text GLabel 7400 2900 0    50   UnSpc ~ 0
+SW3
+Text GLabel 8200 3000 2    50   UnSpc ~ 0
+Tip4
+Text GLabel 7400 3000 0    50   UnSpc ~ 0
+SW4
+Wire Wire Line
+	8200 2700 8050 2700
+Wire Wire Line
+	8200 2800 8050 2800
+Wire Wire Line
+	8200 2900 8050 2900
+Wire Wire Line
+	8200 3000 8050 3000
+Wire Wire Line
+	7550 2700 7400 2700
+Wire Wire Line
+	7550 2800 7400 2800
+Wire Wire Line
+	7550 2900 7400 2900
+Wire Wire Line
+	7550 3000 7400 3000
+$Comp
+L power:+5V #PWR015
+U 1 1 600D5107
+P 7400 3100
+F 0 "#PWR015" H 7400 2950 50  0001 C CNN
+F 1 "+5V" V 7415 3228 50  0000 L CNN
+F 2 "" H 7400 3100 50  0001 C CNN
+F 3 "" H 7400 3100 50  0001 C CNN
+	1    7400 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 3100 7550 3100
+Wire Wire Line
+	8050 3100 8200 3100
+Wire Wire Line
+	8150 3450 8150 3200
+Wire Wire Line
+	8150 3200 8050 3200
+Wire Wire Line
+	7550 3200 7450 3200
+Wire Wire Line
+	7450 3200 7450 3450
+Wire Wire Line
+	7450 3450 8150 3450
+Wire Wire Line
+	8200 2500 8050 2500
+Wire Wire Line
+	7550 2500 7450 2500
+$Comp
+L Device:R_Small_US R43
+U 1 1 601F48B0
+P 7500 1500
+F 0 "R43" H 7568 1546 50  0000 L CNN
+F 1 "2.2K" H 7568 1455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7500 1500 50  0001 C CNN
+F 3 "~" H 7500 1500 50  0001 C CNN
+F 4 "CF14JT2K20CT-ND" H 7500 1500 50  0001 C CNN "Digi-Key Part"
+	1    7500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 6020BA0A
+P 7500 1150
+F 0 "D13" V 7550 1050 50  0000 R CNN
+F 1 "GREEN LED" V 7450 1350 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 7500 1150 50  0001 C CNN
+F 3 "~" H 7500 1150 50  0001 C CNN
+F 4 "732-5008-ND" V 7500 1150 50  0001 C CNN "Digi-Key Part"
+	1    7500 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 1000 7500 950 
+Wire Wire Line
+	7500 1400 7500 1300
+Wire Wire Line
+	7500 1750 7500 1600
+Text Notes 7600 1200 0    50   ~ 0
+Green
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 602CF9B0
+P 3700 5900
+F 0 "U1" H 3658 5946 50  0000 L CNN
+F 1 "TL072" H 3658 5855 50  0000 L CNN
+F 2 "" H 3700 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3700 5900 50  0001 C CNN
+	3    3700 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2450 2100 2550
+Wire Wire Line
+	2100 700  2100 850 
+Text GLabel 2350 2550 0    50   UnSpc ~ 0
+Tip3
+Text GLabel 2350 3550 0    50   UnSpc ~ 0
+Tip4
+$Comp
+L Amplifier_Operational:TL072 U3
+U 1 1 6099B411
+P 3150 2650
+F 0 "U3" H 3200 2900 50  0000 C CNN
+F 1 "TL072" H 3250 2800 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3150 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3150 2650 50  0001 C CNN
+F 4 "296-14997-5-ND‎" H 3150 2650 50  0001 C CNN "Digi-Key Part"
+	1    3150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U3
+U 2 1 6099B418
+P 4100 2650
+F 0 "U3" H 4250 2750 50  0000 C CNN
+F 1 "TL072" H 4250 2850 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4100 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4100 2650 50  0001 C CNN
+F 4 "296-14997-5-ND‎" H 4100 2650 50  0001 C CNN "Digi-Key Part"
+	2    4100 2650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 6099B41F
+P 3450 2350
+F 0 "R11" V 3550 2350 50  0000 C CNN
+F 1 "100K" V 3350 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3450 2350 50  0001 C CNN
+F 3 "~" H 3450 2350 50  0001 C CNN
+F 4 "CF14JT100KCT-ND" V 3450 2350 50  0001 C CNN "Digi-Key Part"
+	1    3450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R17
+U 1 1 6099B426
+P 4150 2350
+F 0 "R17" V 4250 2350 50  0000 C CNN
+F 1 "330K" V 4050 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4150 2350 50  0001 C CNN
+F 3 "~" H 4150 2350 50  0001 C CNN
+F 4 "CF14JT330KCT-ND" V 4150 2350 50  0001 C CNN "Digi-Key Part"
+	1    4150 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2350 3750 2350
+Wire Wire Line
+	3800 2550 3750 2550
+Wire Wire Line
+	3750 2550 3750 2350
+Connection ~ 3750 2350
+Wire Wire Line
+	3750 2350 4050 2350
+Wire Wire Line
+	4250 2350 4500 2350
+Wire Wire Line
+	4500 2350 4500 2650
+Wire Wire Line
+	4500 2650 4400 2650
+$Comp
+L Device:R_Small_US R23
+U 1 1 6099B435
+P 4500 2900
+F 0 "R23" H 4568 2946 50  0000 L CNN
+F 1 "1K" H 4568 2855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4500 2900 50  0001 C CNN
+F 3 "~" H 4500 2900 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 4500 2900 50  0001 C CNN "Digi-Key Part"
+	1    4500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 6099B43C
+P 4500 3250
+F 0 "D5" V 4500 3200 50  0000 R CNN
+F 1 "BLUE LED" V 4448 3133 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4500 3250 50  0001 C CNN
+F 3 "~" H 4500 3250 50  0001 C CNN
+F 4 "732-11401-ND" V 4500 3250 50  0001 C CNN "Digi-Key Part"
+	1    4500 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R20
+U 1 1 6099B443
+P 4300 3050
+F 0 "R20" V 4200 3050 50  0000 C CNN
+F 1 "20K" V 4150 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4300 3050 50  0001 C CNN
+F 3 "~" H 4300 3050 50  0001 C CNN
+F 4 "CF14JT20K0CT-ND" V 4300 3050 50  0001 C CNN "Digi-Key Part"
+	1    4300 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 3050 4500 3050
+Wire Wire Line
+	4500 3050 4500 3000
+Wire Wire Line
+	4500 3100 4500 3050
+Connection ~ 4500 3050
+$Comp
+L power:+12V #PWR013
+U 1 1 6099B44D
+P 4150 3050
+F 0 "#PWR013" H 4150 2900 50  0001 C CNN
+F 1 "+12V" V 4165 3178 50  0000 L CNN
+F 2 "" H 4150 3050 50  0001 C CNN
+F 3 "" H 4150 3050 50  0001 C CNN
+	1    4150 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2750 3750 2750
+Wire Wire Line
+	3750 2750 3750 3450
+Wire Wire Line
+	3750 3450 4500 3450
+Wire Wire Line
+	4500 3450 4500 3400
+Wire Wire Line
+	4500 2800 4500 2650
+Connection ~ 4500 2650
+Wire Wire Line
+	4150 3050 4200 3050
+$Comp
+L Device:R_Small_US R14
+U 1 1 6099B45B
+P 3550 2900
+F 0 "R14" H 3600 2950 50  0000 L CNN
+F 1 "1K" H 3550 2850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3550 2900 50  0001 C CNN
+F 3 "~" H 3550 2900 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 3550 2900 50  0001 C CNN "Digi-Key Part"
+	1    3550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6099B462
+P 3550 3250
+F 0 "D2" V 3550 3200 50  0000 R CNN
+F 1 "RED LED" V 3498 3133 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 3550 3250 50  0001 C CNN
+F 3 "~" H 3550 3250 50  0001 C CNN
+F 4 "732-5005-ND" V 3550 3250 50  0001 C CNN "Digi-Key Part"
+	1    3550 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 6099B469
+P 3350 3050
+F 0 "R8" V 3250 3050 50  0000 C CNN
+F 1 "20K" V 3200 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3350 3050 50  0001 C CNN
+F 3 "~" H 3350 3050 50  0001 C CNN
+F 4 "CF14JT20K0CT-ND" V 3350 3050 50  0001 C CNN "Digi-Key Part"
+	1    3350 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 3050 3550 3050
+Wire Wire Line
+	3550 3050 3550 3000
+Wire Wire Line
+	3550 3100 3550 3050
+Connection ~ 3550 3050
+$Comp
+L power:+12V #PWR08
+U 1 1 6099B473
+P 3200 3050
+F 0 "#PWR08" H 3200 2900 50  0001 C CNN
+F 1 "+12V" V 3215 3178 50  0000 L CNN
+F 2 "" H 3200 3050 50  0001 C CNN
+F 3 "" H 3200 3050 50  0001 C CNN
+	1    3200 3050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3550 3450
+Wire Wire Line
+	3550 3450 3550 3400
+Wire Wire Line
+	3200 3050 3250 3050
+Wire Wire Line
+	3350 2350 2750 2350
+Wire Wire Line
+	2750 2350 2750 2550
+Wire Wire Line
+	2750 2550 2850 2550
+Wire Wire Line
+	3450 2650 3550 2650
+Wire Wire Line
+	3550 2650 3550 2800
+$Comp
+L Device:R_Small_US R2
+U 1 1 6099B482
+P 2750 3200
+F 0 "R2" H 2818 3246 50  0000 L CNN
+F 1 "91K" H 2818 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 2750 3200 50  0001 C CNN
+F 3 "~" H 2750 3200 50  0001 C CNN
+F 4 "CF14JT91K0CT-ND" H 2750 3200 50  0001 C CNN "Digi-Key Part"
+	1    2750 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3450 2750 3300
+Wire Wire Line
+	2750 3450 3550 3450
+Wire Wire Line
+	2850 2750 2750 2750
+Wire Wire Line
+	2750 2750 2750 2900
+$Comp
+L Device:R_Small_US R5
+U 1 1 6099B48D
+P 3200 2900
+F 0 "R5" V 3350 2800 50  0000 C CNN
+F 1 "200K" V 3250 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3200 2900 50  0001 C CNN
+F 3 "~" H 3200 2900 50  0001 C CNN
+F 4 "CF14JT200KCT-ND" V 3200 2900 50  0001 C CNN "Digi-Key Part"
+	1    3200 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 2900 2750 2900
+Connection ~ 2750 2900
+Wire Wire Line
+	2750 2900 2750 3100
+Wire Wire Line
+	3300 2900 3450 2900
+Wire Wire Line
+	3450 2900 3450 2650
+Connection ~ 3450 2650
+Wire Wire Line
+	3550 3450 3750 3450
+Connection ~ 3750 3450
+Text Notes 4300 3400 0    50   ~ 0
+Blue
+Text Notes 3350 3400 0    50   ~ 0
+Red
+$Comp
+L Amplifier_Operational:TL072 U4
+U 1 1 6099B49E
+P 5350 2650
+F 0 "U4" H 5400 2900 50  0000 C CNN
+F 1 "TL072" H 5450 2800 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5350 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5350 2650 50  0001 C CNN
+F 4 "296-14997-5-ND‎" H 5350 2650 50  0001 C CNN "Digi-Key Part"
+	1    5350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U4
+U 2 1 6099B4A5
+P 6300 2650
+F 0 "U4" H 6450 2750 50  0000 C CNN
+F 1 "TL072" H 6450 2850 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6300 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6300 2650 50  0001 C CNN
+F 4 "296-14997-5-ND‎" H 6300 2650 50  0001 C CNN "Digi-Key Part"
+	2    6300 2650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R35
+U 1 1 6099B4AC
+P 5650 2350
+F 0 "R35" V 5750 2350 50  0000 C CNN
+F 1 "100K" V 5550 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5650 2350 50  0001 C CNN
+F 3 "~" H 5650 2350 50  0001 C CNN
+F 4 "CF14JT100KCT-ND" V 5650 2350 50  0001 C CNN "Digi-Key Part"
+	1    5650 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R41
+U 1 1 6099B4B3
+P 6350 2350
+F 0 "R41" V 6450 2350 50  0000 C CNN
+F 1 "330K" V 6250 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6350 2350 50  0001 C CNN
+F 3 "~" H 6350 2350 50  0001 C CNN
+F 4 "CF14JT330KCT-ND" V 6350 2350 50  0001 C CNN "Digi-Key Part"
+	1    6350 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 2350 5950 2350
+Wire Wire Line
+	6000 2550 5950 2550
+Wire Wire Line
+	5950 2550 5950 2350
+Connection ~ 5950 2350
+Wire Wire Line
+	5950 2350 6250 2350
+Wire Wire Line
+	6450 2350 6700 2350
+Wire Wire Line
+	6700 2350 6700 2650
+Wire Wire Line
+	6700 2650 6600 2650
+$Comp
+L Device:R_Small_US R48
+U 1 1 6099B4C2
+P 6700 2900
+F 0 "R48" H 6768 2946 50  0000 L CNN
+F 1 "1K" H 6768 2855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6700 2900 50  0001 C CNN
+F 3 "~" H 6700 2900 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 6700 2900 50  0001 C CNN "Digi-Key Part"
+	1    6700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 6099B4C9
+P 6700 3250
+F 0 "D11" V 6700 3200 50  0000 R CNN
+F 1 "BLUE LED" V 6648 3133 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 6700 3250 50  0001 C CNN
+F 3 "~" H 6700 3250 50  0001 C CNN
+F 4 "732-11401-ND" V 6700 3250 50  0001 C CNN "Digi-Key Part"
+	1    6700 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R45
+U 1 1 6099B4D0
+P 6500 3050
+F 0 "R45" V 6400 3050 50  0000 C CNN
+F 1 "20K" V 6350 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6500 3050 50  0001 C CNN
+F 3 "~" H 6500 3050 50  0001 C CNN
+F 4 "CF14JT20K0CT-ND" V 6500 3050 50  0001 C CNN "Digi-Key Part"
+	1    6500 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 3050 6700 3050
+Wire Wire Line
+	6700 3050 6700 3000
+Wire Wire Line
+	6700 3100 6700 3050
+Connection ~ 6700 3050
+$Comp
+L power:GND #PWR034
+U 1 1 6099B4DA
+P 6700 3500
+F 0 "#PWR034" H 6700 3250 50  0001 C CNN
+F 1 "GND" H 6705 3327 50  0001 C CNN
+F 2 "" H 6700 3500 50  0001 C CNN
+F 3 "" H 6700 3500 50  0001 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR031
+U 1 1 6099B4E0
+P 6350 3050
+F 0 "#PWR031" H 6350 2900 50  0001 C CNN
+F 1 "+12V" V 6365 3178 50  0000 L CNN
+F 2 "" H 6350 3050 50  0001 C CNN
+F 3 "" H 6350 3050 50  0001 C CNN
+	1    6350 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 3500 6700 3450
+Wire Wire Line
+	6000 2750 5950 2750
+Wire Wire Line
+	5950 2750 5950 3450
+Wire Wire Line
+	5950 3450 6700 3450
+Connection ~ 6700 3450
+Wire Wire Line
+	6700 3450 6700 3400
+Wire Wire Line
+	6700 2800 6700 2650
+Connection ~ 6700 2650
+Wire Wire Line
+	6350 3050 6400 3050
+$Comp
+L Device:R_Small_US R38
+U 1 1 6099B4F0
+P 5750 2900
+F 0 "R38" H 5800 2950 50  0000 L CNN
+F 1 "1K" H 5750 2850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5750 2900 50  0001 C CNN
+F 3 "~" H 5750 2900 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 5750 2900 50  0001 C CNN "Digi-Key Part"
+	1    5750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 6099B4F7
+P 5750 3250
+F 0 "D8" V 5750 3200 50  0000 R CNN
+F 1 "RED LED" V 5698 3133 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5750 3250 50  0001 C CNN
+F 3 "~" H 5750 3250 50  0001 C CNN
+F 4 "732-5005-ND" V 5750 3250 50  0001 C CNN "Digi-Key Part"
+	1    5750 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R32
+U 1 1 6099B4FE
+P 5550 3050
+F 0 "R32" V 5450 3050 50  0000 C CNN
+F 1 "20K" V 5400 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5550 3050 50  0001 C CNN
+F 3 "~" H 5550 3050 50  0001 C CNN
+F 4 "CF14JT20K0CT-ND" V 5550 3050 50  0001 C CNN "Digi-Key Part"
+	1    5550 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 3050 5750 3050
+Wire Wire Line
+	5750 3050 5750 3000
+Wire Wire Line
+	5750 3100 5750 3050
+Connection ~ 5750 3050
+$Comp
+L power:+12V #PWR018
+U 1 1 6099B508
+P 5400 3050
+F 0 "#PWR018" H 5400 2900 50  0001 C CNN
+F 1 "+12V" V 5415 3178 50  0000 L CNN
+F 2 "" H 5400 3050 50  0001 C CNN
+F 3 "" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5750 3450
+Wire Wire Line
+	5750 3450 5750 3400
+Wire Wire Line
+	5400 3050 5450 3050
+Wire Wire Line
+	5550 2350 4950 2350
+Wire Wire Line
+	4950 2350 4950 2550
+Wire Wire Line
+	4950 2550 5050 2550
+Wire Wire Line
+	5650 2650 5750 2650
+Wire Wire Line
+	5750 2650 5750 2800
+$Comp
+L Device:R_Small_US R26
+U 1 1 6099B517
+P 4950 3200
+F 0 "R26" H 5018 3246 50  0000 L CNN
+F 1 "91K" H 5018 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4950 3200 50  0001 C CNN
+F 3 "~" H 4950 3200 50  0001 C CNN
+F 4 "CF14JT91K0CT-ND" H 4950 3200 50  0001 C CNN "Digi-Key Part"
+	1    4950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3450 4950 3300
+Wire Wire Line
+	4950 3450 5750 3450
+Wire Wire Line
+	5050 2750 4950 2750
+Wire Wire Line
+	4950 2750 4950 2900
+$Comp
+L Device:R_Small_US R29
+U 1 1 6099B522
+P 5400 2900
+F 0 "R29" V 5550 2800 50  0000 C CNN
+F 1 "200K" V 5450 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5400 2900 50  0001 C CNN
+F 3 "~" H 5400 2900 50  0001 C CNN
+F 4 "CF14JT200KCT-ND" V 5400 2900 50  0001 C CNN "Digi-Key Part"
+	1    5400 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 2900 4950 2900
+Connection ~ 4950 2900
+Wire Wire Line
+	4950 2900 4950 3100
+Wire Wire Line
+	5500 2900 5650 2900
+Wire Wire Line
+	5650 2900 5650 2650
+Connection ~ 5650 2650
+Wire Wire Line
+	5750 3450 5950 3450
+Connection ~ 5950 3450
+Text Notes 6500 3400 0    50   ~ 0
+Blue
+Text Notes 5550 3400 0    50   ~ 0
+Red
+Wire Wire Line
+	4500 3450 4950 3450
+Connection ~ 4500 3450
+Connection ~ 4950 3450
+Wire Wire Line
+	4800 3550 4800 2350
+Wire Wire Line
+	4800 2350 4950 2350
+Connection ~ 4950 2350
+Wire Wire Line
+	2100 3550 2450 3550
+Text GLabel 2150 3650 2    50   UnSpc ~ 0
+SW4
+Connection ~ 2750 2550
+Text GLabel 2150 2650 2    50   UnSpc ~ 0
+SW3
+Wire Wire Line
+	1900 2650 2150 2650
+Wire Wire Line
+	2450 3250 2450 3550
+Connection ~ 2450 3550
+Wire Wire Line
+	2450 3550 4800 3550
+Connection ~ 2100 2550
+Wire Wire Line
+	2100 3450 2100 3550
+Wire Wire Line
+	1900 3550 2100 3550
+Connection ~ 2100 3550
+Wire Wire Line
+	1900 3650 2150 3650
+Text GLabel 2350 850  0    50   UnSpc ~ 0
+Tip1
+Text GLabel 2350 1850 0    50   UnSpc ~ 0
+Tip2
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 60B32754
+P 3150 950
+F 0 "U1" H 3200 1200 50  0000 C CNN
+F 1 "TL072" H 3250 1100 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3150 950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3150 950 50  0001 C CNN
+F 4 "296-14997-5-ND" H 3150 950 50  0001 C CNN "Digi-Key Part"
+	1    3150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 60B3275B
+P 4100 950
+F 0 "U1" H 4250 1050 50  0000 C CNN
+F 1 "TL072" H 4250 1150 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4100 950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4100 950 50  0001 C CNN
+F 4 "296-14997-5-ND" H 4100 950 50  0001 C CNN "Digi-Key Part"
+	2    4100 950 
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 60B32762
+P 3450 650
+F 0 "R10" V 3550 650 50  0000 C CNN
+F 1 "100K" V 3350 600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3450 650 50  0001 C CNN
+F 3 "~" H 3450 650 50  0001 C CNN
+F 4 "CF14JT100KCT-ND" V 3450 650 50  0001 C CNN "Digi-Key Part"
+	1    3450 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R16
+U 1 1 60B32769
+P 4150 650
+F 0 "R16" V 4250 650 50  0000 C CNN
+F 1 "330K" V 4050 550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4150 650 50  0001 C CNN
+F 3 "~" H 4150 650 50  0001 C CNN
+F 4 "CF14JT330KCT-ND" V 4150 650 50  0001 C CNN "Digi-Key Part"
+	1    4150 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 650  3750 650 
+Wire Wire Line
+	3800 850  3750 850 
+Wire Wire Line
+	3750 850  3750 650 
+Connection ~ 3750 650 
+Wire Wire Line
+	3750 650  4050 650 
+Wire Wire Line
+	4250 650  4500 650 
+Wire Wire Line
+	4500 650  4500 950 
+Wire Wire Line
+	4500 950  4400 950 
+$Comp
+L Device:R_Small_US R22
+U 1 1 60B32778
+P 4500 1200
+F 0 "R22" H 4568 1246 50  0000 L CNN
+F 1 "1K" H 4568 1155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4500 1200 50  0001 C CNN
+F 3 "~" H 4500 1200 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 4500 1200 50  0001 C CNN "Digi-Key Part"
+	1    4500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 60B3277F
+P 4500 1550
+F 0 "D4" V 4500 1500 50  0000 R CNN
+F 1 "BLUE LED" V 4448 1433 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4500 1550 50  0001 C CNN
+F 3 "~" H 4500 1550 50  0001 C CNN
+F 4 "732-11401-ND" V 4500 1550 50  0001 C CNN "Digi-Key Part"
+	1    4500 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R19
+U 1 1 60B32786
+P 4300 1350
+F 0 "R19" V 4200 1350 50  0000 C CNN
+F 1 "20K" V 4150 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4300 1350 50  0001 C CNN
+F 3 "~" H 4300 1350 50  0001 C CNN
+F 4 "CF14JT20K0CT-ND" V 4300 1350 50  0001 C CNN "Digi-Key Part"
+	1    4300 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1350 4500 1350
+Wire Wire Line
+	4500 1350 4500 1300
+Wire Wire Line
+	4500 1400 4500 1350
+Connection ~ 4500 1350
+$Comp
+L power:+12V #PWR012
+U 1 1 60B32790
+P 4150 1350
+F 0 "#PWR012" H 4150 1200 50  0001 C CNN
+F 1 "+12V" V 4165 1478 50  0000 L CNN
+F 2 "" H 4150 1350 50  0001 C CNN
+F 3 "" H 4150 1350 50  0001 C CNN
+	1    4150 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1050 3750 1050
+Wire Wire Line
+	3750 1050 3750 1750
+Wire Wire Line
+	3750 1750 4500 1750
+Wire Wire Line
+	4500 1750 4500 1700
+Wire Wire Line
+	4500 1100 4500 950 
+Connection ~ 4500 950 
+Wire Wire Line
+	4150 1350 4200 1350
+$Comp
+L Device:R_Small_US R13
+U 1 1 60B3279E
+P 3550 1200
+F 0 "R13" H 3600 1250 50  0000 L CNN
+F 1 "1K" H 3550 1150 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3550 1200 50  0001 C CNN
+F 3 "~" H 3550 1200 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 3550 1200 50  0001 C CNN "Digi-Key Part"
+	1    3550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60B327A5
+P 3550 1550
+F 0 "D1" V 3550 1500 50  0000 R CNN
+F 1 "RED LED" V 3498 1433 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 3550 1550 50  0001 C CNN
+F 3 "~" H 3550 1550 50  0001 C CNN
+F 4 "732-5005-ND" V 3550 1550 50  0001 C CNN "Digi-Key Part"
+	1    3550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 60B327AC
+P 3350 1350
+F 0 "R7" V 3250 1350 50  0000 C CNN
+F 1 "20K" V 3200 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3350 1350 50  0001 C CNN
+F 3 "~" H 3350 1350 50  0001 C CNN
+F 4 "CF14JT20K0CT-ND" V 3350 1350 50  0001 C CNN "Digi-Key Part"
+	1    3350 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 1350 3550 1350
+Wire Wire Line
+	3550 1350 3550 1300
+Wire Wire Line
+	3550 1400 3550 1350
+Connection ~ 3550 1350
+$Comp
+L power:+12V #PWR07
+U 1 1 60B327B6
+P 3200 1350
+F 0 "#PWR07" H 3200 1200 50  0001 C CNN
+F 1 "+12V" V 3215 1478 50  0000 L CNN
+F 2 "" H 3200 1350 50  0001 C CNN
+F 3 "" H 3200 1350 50  0001 C CNN
+	1    3200 1350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3550 1750
+Wire Wire Line
+	3550 1750 3550 1700
+Wire Wire Line
+	3200 1350 3250 1350
+Wire Wire Line
+	3350 650  2750 650 
+Wire Wire Line
+	2750 650  2750 850 
+Wire Wire Line
+	2750 850  2850 850 
+Wire Wire Line
+	3450 950  3550 950 
+Wire Wire Line
+	3550 950  3550 1100
+$Comp
+L Device:R_Small_US R1
+U 1 1 60B327C5
+P 2750 1500
+F 0 "R1" H 2818 1546 50  0000 L CNN
+F 1 "91K" H 2818 1455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 2750 1500 50  0001 C CNN
+F 3 "~" H 2750 1500 50  0001 C CNN
+F 4 "CF14JT91K0CT-ND" H 2750 1500 50  0001 C CNN "Digi-Key Part"
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1750 2750 1600
+Wire Wire Line
+	2750 1750 3550 1750
+Wire Wire Line
+	2850 1050 2750 1050
+Wire Wire Line
+	2750 1050 2750 1200
+$Comp
+L Device:R_Small_US R4
+U 1 1 60B327D0
+P 3200 1200
+F 0 "R4" V 3350 1100 50  0000 C CNN
+F 1 "200K" V 3250 1100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3200 1200 50  0001 C CNN
+F 3 "~" H 3200 1200 50  0001 C CNN
+F 4 "CF14JT200KCT-ND" V 3200 1200 50  0001 C CNN "Digi-Key Part"
+	1    3200 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1200 2750 1200
+Connection ~ 2750 1200
+Wire Wire Line
+	2750 1200 2750 1400
+Wire Wire Line
+	3300 1200 3450 1200
+Wire Wire Line
+	3450 1200 3450 950 
+Connection ~ 3450 950 
+Wire Wire Line
+	3550 1750 3750 1750
+Connection ~ 3750 1750
+Text Notes 4300 1700 0    50   ~ 0
+Blue
+Text Notes 3350 1700 0    50   ~ 0
+Red
+$Comp
+L Amplifier_Operational:TL072 U2
+U 1 1 60B327E1
+P 5350 950
+F 0 "U2" H 5400 1200 50  0000 C CNN
+F 1 "TL072" H 5450 1100 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5350 950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5350 950 50  0001 C CNN
+F 4 "296-14997-5-ND‎" H 5350 950 50  0001 C CNN "Digi-Key Part"
+	1    5350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U2
+U 2 1 60B327E8
+P 6300 950
+F 0 "U2" H 6450 1050 50  0000 C CNN
+F 1 "TL072" H 6450 1150 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6300 950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6300 950 50  0001 C CNN
+F 4 "296-14997-5-ND‎" H 6300 950 50  0001 C CNN "Digi-Key Part"
+	2    6300 950 
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R34
+U 1 1 60B327EF
+P 5650 650
+F 0 "R34" V 5750 650 50  0000 C CNN
+F 1 "100K" V 5550 600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5650 650 50  0001 C CNN
+F 3 "~" H 5650 650 50  0001 C CNN
+F 4 "CF14JT100KCT-ND" V 5650 650 50  0001 C CNN "Digi-Key Part"
+	1    5650 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R40
+U 1 1 60B327F6
+P 6350 650
+F 0 "R40" V 6450 650 50  0000 C CNN
+F 1 "330K" V 6250 550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6350 650 50  0001 C CNN
+F 3 "~" H 6350 650 50  0001 C CNN
+F 4 "CF14JT330KCT-ND" V 6350 650 50  0001 C CNN "Digi-Key Part"
+	1    6350 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 650  5950 650 
+Wire Wire Line
+	6000 850  5950 850 
+Wire Wire Line
+	5950 850  5950 650 
+Connection ~ 5950 650 
+Wire Wire Line
+	5950 650  6250 650 
+Wire Wire Line
+	6450 650  6700 650 
+Wire Wire Line
+	6700 650  6700 950 
+Wire Wire Line
+	6700 950  6600 950 
+$Comp
+L Device:R_Small_US R47
+U 1 1 60B32805
+P 6700 1200
+F 0 "R47" H 6768 1246 50  0000 L CNN
+F 1 "1K" H 6768 1155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6700 1200 50  0001 C CNN
+F 3 "~" H 6700 1200 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 6700 1200 50  0001 C CNN "Digi-Key Part"
+	1    6700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 60B3280C
+P 6700 1550
+F 0 "D10" V 6700 1500 50  0000 R CNN
+F 1 "BLUE LED" V 6648 1433 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 6700 1550 50  0001 C CNN
+F 3 "~" H 6700 1550 50  0001 C CNN
+F 4 "732-11401-ND" V 6700 1550 50  0001 C CNN "Digi-Key Part"
+	1    6700 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R44
+U 1 1 60B32813
+P 6500 1350
+F 0 "R44" V 6400 1350 50  0000 C CNN
+F 1 "20K" V 6350 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6500 1350 50  0001 C CNN
+F 3 "~" H 6500 1350 50  0001 C CNN
+F 4 "CF14JT20K0CT-ND" V 6500 1350 50  0001 C CNN "Digi-Key Part"
+	1    6500 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 1350 6700 1350
+Wire Wire Line
+	6700 1350 6700 1300
+Wire Wire Line
+	6700 1400 6700 1350
+Connection ~ 6700 1350
+$Comp
+L power:GND #PWR033
+U 1 1 60B3281D
+P 6700 1800
+F 0 "#PWR033" H 6700 1550 50  0001 C CNN
+F 1 "GND" H 6705 1627 50  0001 C CNN
+F 2 "" H 6700 1800 50  0001 C CNN
+F 3 "" H 6700 1800 50  0001 C CNN
+	1    6700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR030
+U 1 1 60B32823
+P 6350 1350
+F 0 "#PWR030" H 6350 1200 50  0001 C CNN
+F 1 "+12V" V 6365 1478 50  0000 L CNN
+F 2 "" H 6350 1350 50  0001 C CNN
+F 3 "" H 6350 1350 50  0001 C CNN
+	1    6350 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 1800 6700 1750
+Wire Wire Line
+	6000 1050 5950 1050
+Wire Wire Line
+	5950 1050 5950 1750
+Wire Wire Line
+	5950 1750 6700 1750
+Connection ~ 6700 1750
+Wire Wire Line
+	6700 1750 6700 1700
+Wire Wire Line
+	6700 1100 6700 950 
+Connection ~ 6700 950 
+Wire Wire Line
+	6350 1350 6400 1350
+$Comp
+L Device:R_Small_US R37
+U 1 1 60B32833
+P 5750 1200
+F 0 "R37" H 5800 1250 50  0000 L CNN
+F 1 "1K" H 5750 1150 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5750 1200 50  0001 C CNN
+F 3 "~" H 5750 1200 50  0001 C CNN
+F 4 "CF14JT1K00CT-ND" H 5750 1200 50  0001 C CNN "Digi-Key Part"
+	1    5750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 60B3283A
+P 5750 1550
+F 0 "D7" V 5750 1500 50  0000 R CNN
+F 1 "RED LED" V 5698 1433 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5750 1550 50  0001 C CNN
+F 3 "~" H 5750 1550 50  0001 C CNN
+F 4 "732-5005-ND" V 5750 1550 50  0001 C CNN "Digi-Key Part"
+	1    5750 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R31
+U 1 1 60B32841
+P 5550 1350
+F 0 "R31" V 5450 1350 50  0000 C CNN
+F 1 "20K" V 5400 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5550 1350 50  0001 C CNN
+F 3 "~" H 5550 1350 50  0001 C CNN
+F 4 "CF14JT20K0CT-ND" V 5550 1350 50  0001 C CNN "Digi-Key Part"
+	1    5550 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 1350 5750 1350
+Wire Wire Line
+	5750 1350 5750 1300
+Wire Wire Line
+	5750 1400 5750 1350
+Connection ~ 5750 1350
+$Comp
+L power:+12V #PWR017
+U 1 1 60B3284B
+P 5400 1350
+F 0 "#PWR017" H 5400 1200 50  0001 C CNN
+F 1 "+12V" V 5415 1478 50  0000 L CNN
+F 2 "" H 5400 1350 50  0001 C CNN
+F 3 "" H 5400 1350 50  0001 C CNN
+	1    5400 1350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5750 1750
+Wire Wire Line
+	5750 1750 5750 1700
+Wire Wire Line
+	5400 1350 5450 1350
+Wire Wire Line
+	5550 650  4950 650 
+Wire Wire Line
+	4950 650  4950 850 
+Wire Wire Line
+	4950 850  5050 850 
+Wire Wire Line
+	5650 950  5750 950 
+Wire Wire Line
+	5750 950  5750 1100
+$Comp
+L Device:R_Small_US R25
+U 1 1 60B3285A
+P 4950 1500
+F 0 "R25" H 5018 1546 50  0000 L CNN
+F 1 "91K" H 5018 1455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4950 1500 50  0001 C CNN
+F 3 "~" H 4950 1500 50  0001 C CNN
+F 4 "CF14JT91K0CT-ND" H 4950 1500 50  0001 C CNN "Digi-Key Part"
+	1    4950 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1750 4950 1600
+Wire Wire Line
+	4950 1750 5750 1750
+Wire Wire Line
+	5050 1050 4950 1050
+Wire Wire Line
+	4950 1050 4950 1200
+$Comp
+L Device:R_Small_US R28
+U 1 1 60B32865
+P 5400 1200
+F 0 "R28" V 5550 1100 50  0000 C CNN
+F 1 "200K" V 5450 1100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5400 1200 50  0001 C CNN
+F 3 "~" H 5400 1200 50  0001 C CNN
+F 4 "CF14JT200KCT-ND" V 5400 1200 50  0001 C CNN "Digi-Key Part"
+	1    5400 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 1200 4950 1200
+Connection ~ 4950 1200
+Wire Wire Line
+	4950 1200 4950 1400
+Wire Wire Line
+	5500 1200 5650 1200
+Wire Wire Line
+	5650 1200 5650 950 
+Connection ~ 5650 950 
+Wire Wire Line
+	5750 1750 5950 1750
+Connection ~ 5950 1750
+Text Notes 6500 1700 0    50   ~ 0
+Blue
+Text Notes 5550 1700 0    50   ~ 0
+Red
+Wire Wire Line
+	4500 1750 4950 1750
+Connection ~ 4500 1750
+Connection ~ 4950 1750
+Wire Wire Line
+	4800 1850 4800 650 
+Wire Wire Line
+	4800 650  4950 650 
+Connection ~ 4950 650 
+Text GLabel 2150 1950 2    50   UnSpc ~ 0
+SW2
+Connection ~ 2750 850 
+Text GLabel 2150 950  2    50   UnSpc ~ 0
+SW1
+Wire Wire Line
+	1900 950  2150 950 
+Wire Wire Line
+	2450 1550 2450 1850
+Connection ~ 2450 1850
+Wire Wire Line
+	2450 1850 4800 1850
+Wire Wire Line
+	1900 1950 2150 1950
+Connection ~ 2100 850 
+Wire Wire Line
+	1900 1850 2100 1850
+Wire Wire Line
+	2100 1650 2100 1850
+Connection ~ 2100 1850
+Wire Wire Line
+	2100 1850 2450 1850
+Wire Wire Line
+	7450 3450 6700 3450
+Connection ~ 7450 3450
+$Comp
+L Amplifier_Operational:TL072 U2
+U 3 1 60D134DA
+P 4100 5900
+F 0 "U2" H 4058 5946 50  0000 L CNN
+F 1 "TL072" H 4058 5855 50  0000 L CNN
+F 2 "" H 4100 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4100 5900 50  0001 C CNN
+	3    4100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U3
+U 3 1 60D14106
+P 4450 5900
+F 0 "U3" H 4408 5946 50  0000 L CNN
+F 1 "TL072" H 4408 5855 50  0000 L CNN
+F 2 "" H 4450 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4450 5900 50  0001 C CNN
+	3    4450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U4
+U 3 1 60D15318
+P 4800 5900
+F 0 "U4" H 4758 5946 50  0000 L CNN
+F 1 "TL072" H 4758 5855 50  0000 L CNN
+F 2 "" H 4800 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4800 5900 50  0001 C CNN
+	3    4800 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5600 4350 5600
+Connection ~ 4700 5600
+Wire Wire Line
+	4350 5600 4000 5600
+Connection ~ 4350 5600
+Wire Wire Line
+	4000 5600 3600 5600
+Connection ~ 4000 5600
+Wire Wire Line
+	3600 6200 4000 6200
+Wire Wire Line
+	4000 6200 4350 6200
+Connection ~ 4000 6200
+Wire Wire Line
+	4350 6200 4700 6200
+Connection ~ 4350 6200
+Connection ~ 4700 6200
+$Comp
+L power:-12V #PWR011
+U 1 1 60F3D2CC
+P 3350 6200
+F 0 "#PWR011" H 3350 6300 50  0001 C CNN
+F 1 "-12V" V 3365 6328 50  0000 L CNN
+F 2 "" H 3350 6200 50  0001 C CNN
+F 3 "" H 3350 6200 50  0001 C CNN
+	1    3350 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR010
+U 1 1 60F3D6A8
+P 3300 5600
+F 0 "#PWR010" H 3300 5450 50  0001 C CNN
+F 1 "+12V" V 3315 5728 50  0000 L CNN
+F 2 "" H 3300 5600 50  0001 C CNN
+F 3 "" H 3300 5600 50  0001 C CNN
+	1    3300 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 5600 3600 5600
+Connection ~ 3600 5600
+Wire Wire Line
+	3350 6200 3600 6200
+Connection ~ 3600 6200
+$Comp
+L Device:C_Small C4
+U 1 1 60FB74DA
+P 5800 5750
+F 0 "C4" H 5892 5796 50  0000 L CNN
+F 1 ".1uF" H 5892 5705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5800 5750 50  0001 C CNN
+F 3 "~" H 5800 5750 50  0001 C CNN
+F 4 "478-2472-ND" H 5800 5750 50  0001 C CNN "Digi-Key Part"
+	1    5800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 60FB92B9
+P 5800 6050
+F 0 "C5" H 5892 6096 50  0000 L CNN
+F 1 ".1uF" H 5892 6005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5800 6050 50  0001 C CNN
+F 3 "~" H 5800 6050 50  0001 C CNN
+F 4 "478-2472-ND" H 5800 6050 50  0001 C CNN "Digi-Key Part"
+	1    5800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 60FBA10E
+P 6250 5750
+F 0 "C6" H 6342 5796 50  0000 L CNN
+F 1 ".1uF" H 6342 5705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6250 5750 50  0001 C CNN
+F 3 "~" H 6250 5750 50  0001 C CNN
+F 4 "478-2472-ND" H 6250 5750 50  0001 C CNN "Digi-Key Part"
+	1    6250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 60FBA115
+P 6250 6050
+F 0 "C7" H 6342 6096 50  0000 L CNN
+F 1 ".1uF" H 6342 6005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6250 6050 50  0001 C CNN
+F 3 "~" H 6250 6050 50  0001 C CNN
+F 4 "478-2472-ND" H 6250 6050 50  0001 C CNN "Digi-Key Part"
+	1    6250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 60FDC616
+P 6700 5750
+F 0 "C8" H 6792 5796 50  0000 L CNN
+F 1 ".1uF" H 6792 5705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6700 5750 50  0001 C CNN
+F 3 "~" H 6700 5750 50  0001 C CNN
+F 4 "478-2472-ND" H 6700 5750 50  0001 C CNN "Digi-Key Part"
+	1    6700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 60FDC61D
+P 6700 6050
+F 0 "C9" H 6792 6096 50  0000 L CNN
+F 1 ".1uF" H 6792 6005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 6700 6050 50  0001 C CNN
+F 3 "~" H 6700 6050 50  0001 C CNN
+F 4 "478-2472-ND" H 6700 6050 50  0001 C CNN "Digi-Key Part"
+	1    6700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 60FDC624
+P 7150 5750
+F 0 "C10" H 7242 5796 50  0000 L CNN
+F 1 ".1uF" H 7242 5705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 7150 5750 50  0001 C CNN
+F 3 "~" H 7150 5750 50  0001 C CNN
+F 4 "478-2472-ND" H 7150 5750 50  0001 C CNN "Digi-Key Part"
+	1    7150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 60FDC62B
+P 7150 6050
+F 0 "C11" H 7242 6096 50  0000 L CNN
+F 1 ".1uF" H 7242 6005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 7150 6050 50  0001 C CNN
+F 3 "~" H 7150 6050 50  0001 C CNN
+F 4 "478-2472-ND" H 7150 6050 50  0001 C CNN "Digi-Key Part"
+	1    7150 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5650 5800 5600
+Connection ~ 5800 5600
+Wire Wire Line
+	5800 5600 6250 5600
+Wire Wire Line
+	5800 5850 5800 5900
+Wire Wire Line
+	5800 6150 5800 6200
+Connection ~ 5800 6200
+Wire Wire Line
+	5800 6200 6250 6200
+Wire Wire Line
+	6250 6150 6250 6200
+Connection ~ 6250 6200
+Wire Wire Line
+	6250 6200 6700 6200
+Wire Wire Line
+	6250 5950 6250 5900
+Wire Wire Line
+	6250 5650 6250 5600
+Connection ~ 6250 5600
+Wire Wire Line
+	6250 5600 6700 5600
+Wire Wire Line
+	6700 5650 6700 5600
+Connection ~ 6700 5600
+Wire Wire Line
+	6700 5600 7150 5600
+Wire Wire Line
+	6700 5850 6700 5900
+Wire Wire Line
+	6700 6150 6700 6200
+Connection ~ 6700 6200
+Wire Wire Line
+	6700 6200 7150 6200
+Wire Wire Line
+	7150 6200 7150 6150
+Wire Wire Line
+	7150 5650 7150 5600
+Wire Wire Line
+	5800 5900 6100 5900
+Connection ~ 5800 5900
+Wire Wire Line
+	5800 5900 5800 5950
+Connection ~ 6250 5900
+Wire Wire Line
+	6250 5900 6250 5850
+Wire Wire Line
+	6250 5900 6700 5900
+Connection ~ 6700 5900
+Wire Wire Line
+	6700 5900 6700 5950
+Wire Wire Line
+	6700 5900 7150 5900
+Wire Wire Line
+	7150 5850 7150 5900
+Connection ~ 7150 5900
+Wire Wire Line
+	7150 5900 7150 5950
+Wire Wire Line
+	6100 7250 6100 5900
+Connection ~ 6100 5900
+Wire Wire Line
+	6100 5900 6250 5900
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6141DD36
+P 8550 5700
+F 0 "H1" H 8650 5703 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8650 5658 50  0001 L CNN
+F 2 "panel:MountingHole_3.2mm_M3_SmPad" H 8550 5700 50  0001 C CNN
+F 3 "~" H 8550 5700 50  0001 C CNN
+	1    8550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61421097
+P 8850 5700
+F 0 "H2" H 8950 5703 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8950 5658 50  0001 L CNN
+F 2 "panel:MountingHole_3.2mm_M3_SmPad" H 8850 5700 50  0001 C CNN
+F 3 "~" H 8850 5700 50  0001 C CNN
+	1    8850 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 61421373
+P 9150 5700
+F 0 "H3" H 9250 5703 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9250 5658 50  0001 L CNN
+F 2 "panel:MountingHole_3.2mm_M3_SmPad" H 9150 5700 50  0001 C CNN
+F 3 "~" H 9150 5700 50  0001 C CNN
+	1    9150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 6142165C
+P 9450 5700
+F 0 "H4" H 9550 5703 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9550 5658 50  0001 L CNN
+F 2 "panel:MountingHole_3.2mm_M3_SmPad" H 9450 5700 50  0001 C CNN
+F 3 "~" H 9450 5700 50  0001 C CNN
+	1    9450 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5900 9450 5800
+Wire Wire Line
+	9150 5800 9150 5900
+Connection ~ 9150 5900
+Wire Wire Line
+	9150 5900 9450 5900
+Wire Wire Line
+	8850 5800 8850 5900
+Connection ~ 8850 5900
+Wire Wire Line
+	8850 5900 9150 5900
+Wire Wire Line
+	8550 5800 8550 5900
+Wire Wire Line
+	8550 5900 8850 5900
+$Comp
+L Connector:TestPoint TP7
+U 1 1 614F5B42
+P 9800 5750
+F 0 "TP7" H 9858 5822 50  0000 L CNN
+F 1 "TestPoint" H 9858 5777 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 10000 5750 50  0001 C CNN
+F 3 "~" H 10000 5750 50  0001 C CNN
+F 4 "36-5006-ND" H 9800 5750 50  0001 C CNN "Digi-Key Part"
+	1    9800 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5900 9800 5900
+Connection ~ 9450 5900
+Wire Wire Line
+	9800 5750 9800 5900
+Connection ~ 9800 5900
+Wire Wire Line
+	9800 5900 10050 5900
+$Comp
+L Connector:TestPoint TP8
+U 1 1 615CFB1B
+P 10050 5750
+F 0 "TP8" H 10108 5822 50  0000 L CNN
+F 1 "TestPoint" H 10108 5777 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 10250 5750 50  0001 C CNN
+F 3 "~" H 10250 5750 50  0001 C CNN
+F 4 "36-5006-ND" H 10050 5750 50  0001 C CNN "Digi-Key Part"
+	1    10050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 615CFD6C
+P 10300 5750
+F 0 "TP9" H 10358 5822 50  0000 L CNN
+F 1 "TestPoint" H 10358 5777 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 10500 5750 50  0001 C CNN
+F 3 "~" H 10500 5750 50  0001 C CNN
+F 4 "36-5006-ND" H 10300 5750 50  0001 C CNN "Digi-Key Part"
+	1    10300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 615CFFE5
+P 10550 5750
+F 0 "TP10" H 10608 5822 50  0000 L CNN
+F 1 "TestPoint" H 10608 5777 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5005-5009_Compact" H 10750 5750 50  0001 C CNN
+F 3 "~" H 10750 5750 50  0001 C CNN
+F 4 "36-5006-ND" H 10550 5750 50  0001 C CNN "Digi-Key Part"
+	1    10550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5750 10050 5900
+Connection ~ 10050 5900
+Wire Wire Line
+	10050 5900 10300 5900
+Wire Wire Line
+	10300 5750 10300 5900
+Connection ~ 10300 5900
+Wire Wire Line
+	10300 5900 10550 5900
+Wire Wire Line
+	10550 5750 10550 5900
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 6165D65C
+P 2450 1350
+F 0 "SW1" V 2500 1600 50  0000 C CNN
+F 1 "SW_SPDT" H 2450 1116 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 2450 1350 50  0001 C CNN
+F 3 "~" H 2450 1350 50  0001 C CNN
+F 4 "CKN10397-ND" H 2450 1350 50  0001 C CNN "Digi-Key Part"
+	1    2450 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 1150 2550 850 
+Connection ~ 2550 850 
+Wire Wire Line
+	2550 850  2750 850 
+Wire Wire Line
+	2100 850  2550 850 
+Wire Wire Line
+	2100 2550 2550 2550
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 616B6B48
+P 2450 3050
+F 0 "SW2" V 2500 3300 50  0000 C CNN
+F 1 "SW_SPDT" H 2450 2816 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 2450 3050 50  0001 C CNN
+F 3 "~" H 2450 3050 50  0001 C CNN
+F 4 "CKN10397-ND" H 2450 3050 50  0001 C CNN "Digi-Key Part"
+	1    2450 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2850 2550 2550
+Connection ~ 2550 2550
+Wire Wire Line
+	2550 2550 2750 2550
+$Comp
+L greenface-symbols:Breadboard_400 B1
+U 1 1 6174F756
+P 8750 4400
+F 0 "B1" H 9228 4400 50  0000 L CNN
+F 1 "Breadboard_400" H 9228 4355 50  0001 L CNN
+F 2 "panel:Proto_400" H 8750 4400 50  0001 C CNN
+F 3 "" H 8750 4400 50  0001 C CNN
+F 4 "1286-1185-ND" H 8750 4400 50  0001 C CNN "Digi-Key Part"
+	1    8750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L greenface-symbols:Breadboard_400 B2
+U 1 1 6175196B
+P 8750 5050
+F 0 "B2" H 9228 5050 50  0000 L CNN
+F 1 "Breadboard_400" H 9228 5005 50  0001 L CNN
+F 2 "panel:Proto_400" H 8750 5050 50  0001 C CNN
+F 3 "" H 8750 5050 50  0001 C CNN
+F 4 "1286-1185-ND" H 8750 5050 50  0001 C CNN "Digi-Key Part"
+	1    8750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6200 5800 6200
+Wire Wire Line
+	4700 5600 5800 5600
+Wire Wire Line
+	7150 5900 8550 5900
+Connection ~ 8550 5900
+Wire Wire Line
+	4200 7250 6100 7250
+Wire Wire Line
+	2150 6800 2800 6800
+$Comp
+L power:+5V #PWR0101
+U 1 1 5FB2F08B
+P 8200 3100
+F 0 "#PWR0101" H 8200 2950 50  0001 C CNN
+F 1 "+5V" V 8215 3228 50  0000 L CNN
+F 2 "" H 8200 3100 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5FB5B8E2
+P 7500 950
+F 0 "#PWR0102" H 7500 800 50  0001 C CNN
+F 1 "+5V" V 7515 1078 50  0000 L CNN
+F 2 "" H 7500 950 50  0001 C CNN
+F 3 "" H 7500 950 50  0001 C CNN
+	1    7500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1750 7500 1750
+$Comp
+L power:+12V #PWR0103
+U 1 1 5FB63A51
+P 7450 2500
+F 0 "#PWR0103" H 7450 2350 50  0001 C CNN
+F 1 "+12V" V 7465 2628 50  0000 L CNN
+F 2 "" H 7450 2500 50  0001 C CNN
+F 3 "" H 7450 2500 50  0001 C CNN
+	1    7450 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-12V #PWR0104
+U 1 1 5FB79A6F
+P 7450 2600
+F 0 "#PWR0104" H 7450 2700 50  0001 C CNN
+F 1 "-12V" V 7465 2728 50  0000 L CNN
+F 2 "" H 7450 2600 50  0001 C CNN
+F 3 "" H 7450 2600 50  0001 C CNN
+	1    7450 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 5FB7B8C7
+P 4200 6950
+F 0 "C2" H 4300 7000 50  0000 L CNN
+F 1 "10uF" H 4300 6900 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 4200 6950 50  0001 C CNN
+F 3 "~" H 4200 6950 50  0001 C CNN
+F 4 "478-7366-1-ND" H 4200 6950 50  0001 C CNN "Digi-Key Part"
+	1    4200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0105
+U 1 1 5FC96CAB
+P 2800 6700
+F 0 "#PWR0105" H 2800 6550 50  0001 C CNN
+F 1 "+12V" V 2815 6828 50  0000 L CNN
+F 2 "" H 2800 6700 50  0001 C CNN
+F 3 "" H 2800 6700 50  0001 C CNN
+	1    2800 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 6700 2800 6800
+Connection ~ 2800 6800
+Wire Wire Line
+	2800 6800 3350 6800
+$Comp
+L greenface-symbols:Conn_02x08_Odd_Even_Female J9
+U 1 1 5FAE5A66
+P 7750 2800
+F 0 "J9" H 7800 3225 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even_Female" H 7800 3226 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 7750 2800 50  0001 C CNN
+F 3 "~" H 7750 2800 50  0001 C CNN
+F 4 "S7111-ND" H 7750 2800 50  0001 C CNN "Digi-Key Part"
+	1    7750 2800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

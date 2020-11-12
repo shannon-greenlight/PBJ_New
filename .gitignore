@@ -54,4 +54,10 @@ _notes
 *.fpc
 *.dsn
 *.autosave
-CAM
+
+fp-info-cache
+*.kicad_pcb_bak
+*.xml
+*.csv
+*.tmp
+gerber

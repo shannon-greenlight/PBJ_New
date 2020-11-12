@@ -1,0 +1,22 @@
+* C:\Users\Shannon\Dropbox\moog\PBJ_New\spice\sigmon.asc
+V1 N001 0 12
+V4 0 N009 12
+R11 N005 N004 100K
+R13 N006 N005 330K
+V5 N004 0 SINE(0 .3 2 0 0) AC 1
+XU1 0 N005 N001 N009 N006 AD712
+D1 N008 0 D
+R1 N006 N008 1K
+D2 N007 0 D
+R2 N003 N007 1K
+R3 N003 N002 200K
+XU2 N004 N002 N001 N009 N003 AD712
+R4 0 N002 91K
+R5 N001 N008 20K
+R6 N001 N007 20K
+.model D D
+.lib C:\Users\Shannon\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0 2 1 .1
+.lib ADI1.lib
+.backanno
+.end
