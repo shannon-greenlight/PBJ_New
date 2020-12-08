@@ -56,8 +56,15 @@ _notes
 *.autosave
 
 fp-info-cache
-*.kicad_pcb_bak
+*.kicad_pcb-bak
 *.xml
 *.csv
 *.tmp
+*.sch-bak
+
+docs
+
+spice/*.raw
+spice/*.net
+
 gerber
