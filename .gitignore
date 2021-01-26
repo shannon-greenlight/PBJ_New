@@ -68,3 +68,5 @@ spice/*.raw
 spice/*.net
 
 gerber
+
+PBJ_EU/PBJ EU_transistor.sch
