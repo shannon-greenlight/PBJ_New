@@ -1,7 +1,13 @@
 # PBJ_New
 PBJ Project (Proto Board with Jacks) -- For Synthesizer hardware development
+
 This project provides the KiCAD files used to fab PBJ synthesizer development breadboards.
 It requires the KiCAD libraries found at: https://github.com/shannon-greenlight/KiCAD
+
+It also requires the Digi-Key footprint and symbol libraries available at: https://www.digikey.com/en/resources/design-tools/kicad
+
+The Excel file pbj_eu.xlsx can be uploaded directly to Digi-Key to order parts.
+
 Currently, only the PBJ EU is available. But a standalone version, the PBJ Solo, is in the wings.
 
 Note: If you don't have KiCAD and just want to make the PBJ, you can send the Gerber files to fab and use the Excel file to buy the parts. 
