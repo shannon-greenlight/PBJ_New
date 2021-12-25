@@ -68,8 +68,7 @@ spice/*.raw
 spice/*.net
 spice/*.log
 
-gerber
-
+# gerber
 rescue
 
 PBJ_EU/PBJ EU_transistor.sch
