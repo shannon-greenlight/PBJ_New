@@ -75,6 +75,7 @@ rescue
 PBJ_EU/PBJ EU_transistor.sch
 PBJ_EU/*-cache.lib
 PBJ_EU/*.zip
+PBJ_EU/zip/*.zip
 PBJ_EU/*.bak
 PBJ_EU/*.xlsx
 PBJ_EU/sym-lib-table
