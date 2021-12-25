@@ -11,9 +11,9 @@ The Excel file pbj_eu.xlsx can be uploaded directly to Digi-Key to order parts.
 Currently, only the PBJ EU is available. But a standalone version, the PBJ Solo, is in the wings.
 
 Note: If you don't have KiCAD and just want to make the PBJ, you can send the Gerber files to fab and use the Excel file to buy the parts. 
-The jpeg of the schematic can be used for reference.
+The jpegs of the EU in use (EU_inuse.jpg) and of the schematic (PBJ_EU/pbj_eu.jpg) can be used for reference.
 
-Features
+PBJ EU Features
 
 800 point solderless proto board
 
