@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "PBJ EU"
 Date ""
-Rev "4.0"
+Rev "4.7"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -475,11 +475,11 @@ F 3 "" H 3650 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3300 3050 3250 3050
+	3300 3050 3100 3050
 Wire Wire Line
-	3250 3050 3250 3750
+	3100 3050 3100 3350
 Wire Wire Line
-	3250 3750 4000 3750
+	3100 3750 4000 3750
 Wire Wire Line
 	4000 3750 4000 3700
 Wire Wire Line
@@ -622,11 +622,11 @@ $EndComp
 Wire Wire Line
 	6700 3800 6700 3750
 Wire Wire Line
-	6000 3050 5950 3050
+	6000 3050 5800 3050
 Wire Wire Line
-	5950 3050 5950 3750
+	5800 3050 5800 3350
 Wire Wire Line
-	5950 3750 6700 3750
+	5800 3750 6700 3750
 Connection ~ 6700 3750
 Wire Wire Line
 	6700 3750 6700 3700
@@ -671,7 +671,7 @@ F 4 "CF14JT10K0CT-ND" V 7300 3350 50  0001 C CNN "Digi-Key Part"
 	1    7300 3350
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5950 3750
+Connection ~ 5800 3750
 Text Notes 6500 3700 0    50   ~ 0
 Blue
 Text Notes 7200 3700 0    50   ~ 0
@@ -803,11 +803,11 @@ F 3 "" H 3650 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3300 1050 3250 1050
+	3300 1050 3100 1050
 Wire Wire Line
-	3250 1050 3250 1750
+	3100 1050 3100 1300
 Wire Wire Line
-	3250 1750 4000 1750
+	3100 1750 4000 1750
 Wire Wire Line
 	4000 1750 4000 1700
 Wire Wire Line
@@ -950,11 +950,11 @@ $EndComp
 Wire Wire Line
 	6700 1800 6700 1750
 Wire Wire Line
-	6000 1050 5950 1050
+	6000 1050 5800 1050
 Wire Wire Line
-	5950 1050 5950 1750
+	5800 1050 5800 1300
 Wire Wire Line
-	5950 1750 6700 1750
+	5800 1750 6700 1750
 Connection ~ 6700 1750
 Wire Wire Line
 	6700 1750 6700 1700
@@ -999,7 +999,7 @@ F 4 "CF14JT10K0CT-ND" V 7300 1350 50  0001 C CNN "Digi-Key Part"
 	1    7300 1350
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5950 1750
+Connection ~ 5800 1750
 Text Notes 6500 1700 0    50   ~ 0
 Blue
 Text Notes 7150 1700 0    50   ~ 0
@@ -1401,7 +1401,7 @@ Connection ~ 4350 1350
 Wire Wire Line
 	4350 1350 4350 1450
 Wire Wire Line
-	4350 1750 5950 1750
+	4350 1750 5800 1750
 Wire Wire Line
 	4350 1350 4500 1350
 $Comp
@@ -1456,7 +1456,7 @@ Wire Wire Line
 	4350 3700 4350 3750
 Connection ~ 4350 3750
 Wire Wire Line
-	4350 3750 5950 3750
+	4350 3750 5800 3750
 Wire Wire Line
 	4000 2950 4350 2950
 Wire Wire Line
@@ -1840,4 +1840,60 @@ F 3 "" H 7550 4600 50  0001 C CNN
 	1    7550 4600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 61C7AC3E
+P 3100 1400
+F 0 "R1" H 3150 1450 50  0000 L CNN
+F 1 "750K" H 3100 1350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3100 1400 50  0001 C CNN
+F 3 "~" H 3100 1400 50  0001 C CNN
+F 4 "S750KQCT-ND" H 3100 1400 50  0001 C CNN "Digi-Key Part"
+	1    3100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1500 3100 1750
+$Comp
+L Device:R_Small_US R3
+U 1 1 61C8CE7C
+P 5800 1400
+F 0 "R3" H 5850 1450 50  0000 L CNN
+F 1 "750K" H 5800 1350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5800 1400 50  0001 C CNN
+F 3 "~" H 5800 1400 50  0001 C CNN
+F 4 "S750KQCT-ND" H 5800 1400 50  0001 C CNN "Digi-Key Part"
+	1    5800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1500 5800 1750
+$Comp
+L Device:R_Small_US R2
+U 1 1 61CE1C45
+P 3100 3450
+F 0 "R2" H 3150 3500 50  0000 L CNN
+F 1 "750K" H 3100 3400 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3100 3450 50  0001 C CNN
+F 3 "~" H 3100 3450 50  0001 C CNN
+F 4 "S750KQCT-ND" H 3100 3450 50  0001 C CNN "Digi-Key Part"
+	1    3100 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3550 3100 3750
+$Comp
+L Device:R_Small_US R4
+U 1 1 61CE22E2
+P 5800 3450
+F 0 "R4" H 5850 3500 50  0000 L CNN
+F 1 "750K" H 5800 3400 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5800 3450 50  0001 C CNN
+F 3 "~" H 5800 3450 50  0001 C CNN
+F 4 "S750KQCT-ND" H 5800 3450 50  0001 C CNN "Digi-Key Part"
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3550 5800 3750
 $EndSCHEMATC

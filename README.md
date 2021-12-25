@@ -7,4 +7,19 @@ Currently, only the PBJ EU is available. But a standalone version, the PBJ Solo,
 Note: If you don't have KiCAD and just want to make the PBJ, you can send the Gerber files to fab and use the Excel file to buy the parts. 
 The jpeg of the schematic can be used for reference.
 
+Features
+800 point solderless proto board
+4 switched 3.5mm jacks
+Wiring connector interfaces jacks and power to proto board
+LED monitors for each jack. Red indicates positive voltage present. Blue indicates negative.
+Test point per jack gives convenient access for scope/meter probes.
+2 Large Ground connection points are excellent for attaching alligator clips
+2 MULT switches connect jack 1 to 2 or jack 3 to 4.
+Tip and Switch signals are routed from the jacks to the wiring connector.
++/- 12V and +5V power are routed to the wiring connector.
+Power is switched.
+Power indicator shows presence of +5V.
+10 pin EU power output connector can be used to power off-rack modules.
+22 HP wide
+
 
