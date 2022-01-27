@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -95,6 +95,18 @@ F 2 "" H 3700 2450 50  0001 C CNN
 F 3 "~" H 3700 2450 50  0001 C CNN
 F 4 "335-1156-ND" H 3700 2450 50  0001 C CNN "Digi-Key Part"
 	1    3700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 61CBB2F2
+P 9000 3250
+F 0 "J1" H 9050 3667 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 9050 3576 50  0000 C CNN
+F 2 "" H 9000 3250 50  0001 C CNN
+F 3 "~" H 9000 3250 50  0001 C CNN
+F 4 "H3CCS-1018G-ND" H 9000 3250 50  0001 C CNN "Digi-Key Part"
+	1    9000 3250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

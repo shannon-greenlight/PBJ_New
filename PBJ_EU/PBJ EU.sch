@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "PBJ EU"
 Date ""
-Rev "4.7"
+Rev "4.8"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -257,9 +257,9 @@ Wire Wire Line
 Wire Wire Line
 	1450 6800 1650 6800
 Wire Wire Line
-	1550 6600 1550 7250
+	1550 6600 1550 6700
 Wire Wire Line
-	2250 6600 2250 7250
+	2250 6600 2250 6700
 Connection ~ 3350 6800
 $Comp
 L power:+12V #PWR016
@@ -1724,7 +1724,7 @@ Wire Wire Line
 	9400 1300 9300 1300
 Connection ~ 9300 1300
 Wire Wire Line
-	9300 1300 9300 1750
+	9300 1300 9300 1400
 Wire Wire Line
 	9900 1300 10000 1300
 Wire Wire Line
@@ -1732,7 +1732,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 1100 9900 1100
 Wire Wire Line
-	10000 1300 10000 1750
+	10000 1300 10000 1400
 Wire Wire Line
 	10000 1200 10000 1300
 Connection ~ 10000 1300
@@ -1801,32 +1801,6 @@ F 3 "" H 9250 1100 50  0001 C CNN
 	1    9250 1100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 6061C863
-P 9250 1400
-F 0 "#PWR0110" H 9250 1250 50  0001 C CNN
-F 1 "+5V" V 9265 1528 50  0000 L CNN
-F 2 "" H 9250 1400 50  0001 C CNN
-F 3 "" H 9250 1400 50  0001 C CNN
-	1    9250 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR0111
-U 1 1 6061CD48
-P 10050 1400
-F 0 "#PWR0111" H 10050 1250 50  0001 C CNN
-F 1 "+5V" V 10065 1528 50  0000 L CNN
-F 2 "" H 10050 1400 50  0001 C CNN
-F 3 "" H 10050 1400 50  0001 C CNN
-	1    10050 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9250 1400 9400 1400
-Wire Wire Line
-	9900 1400 10050 1400
 Text Notes 9450 1650 0    50   ~ 0
 Power Out
 $Comp
@@ -1896,4 +1870,24 @@ F 4 "S750KQCT-ND" H 5800 3450 50  0001 C CNN "Digi-Key Part"
 $EndComp
 Wire Wire Line
 	5800 3550 5800 3750
+Wire Wire Line
+	9400 1400 9300 1400
+Connection ~ 9300 1400
+Wire Wire Line
+	9300 1400 9300 1750
+Wire Wire Line
+	9900 1400 10000 1400
+Connection ~ 10000 1400
+Wire Wire Line
+	10000 1400 10000 1750
+Wire Wire Line
+	1650 6700 1550 6700
+Connection ~ 1550 6700
+Wire Wire Line
+	1550 6700 1550 7250
+Wire Wire Line
+	2150 6700 2250 6700
+Connection ~ 2250 6700
+Wire Wire Line
+	2250 6700 2250 7250
 $EndSCHEMATC
