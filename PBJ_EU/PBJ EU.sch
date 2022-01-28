@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "PBJ EU"
 Date ""
-Rev "4.8"
+Rev "4.9"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -160,41 +160,39 @@ $EndComp
 $Comp
 L Device:CP1_Small C1
 U 1 1 5FC0C3F4
-P 3350 6950
-F 0 "C1" H 3100 7000 50  0000 L CNN
-F 1 "10uF" H 3100 6900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 3350 6950 50  0001 C CNN
-F 3 "~" H 3350 6950 50  0001 C CNN
-F 4 "478-7366-1-ND" H 3350 6950 50  0001 C CNN "Digi-Key Part"
-	1    3350 6950
+P 2950 6950
+F 0 "C1" H 2700 7000 50  0000 L CNN
+F 1 "10uF" H 2700 6900 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 2950 6950 50  0001 C CNN
+F 3 "~" H 2950 6950 50  0001 C CNN
+F 4 "478-7366-1-ND" H 2950 6950 50  0001 C CNN "Digi-Key Part"
+	1    2950 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 6850 3350 6800
+	2950 6850 2950 6800
 Wire Wire Line
-	3350 6800 3500 6800
+	2950 6800 3300 6800
 Wire Wire Line
 	2150 6500 2250 6500
 Wire Wire Line
 	2250 6500 2250 6600
 Wire Wire Line
-	2250 7250 3350 7250
+	2250 7250 2950 7250
 Wire Wire Line
 	3800 7250 3800 7100
 Wire Wire Line
-	3350 7050 3350 7250
-Connection ~ 3350 7250
-Wire Wire Line
-	3350 7250 3800 7250
+	2950 7050 2950 7250
+Connection ~ 2950 7250
 Wire Wire Line
 	3800 7250 4200 7250
 Wire Wire Line
-	4200 7250 4200 7050
+	4500 7250 4500 7050
 Connection ~ 3800 7250
 Wire Wire Line
 	4100 6800 4200 6800
 Wire Wire Line
-	4200 6800 4200 6850
+	4500 6800 4500 6850
 $Comp
 L power:GND #PWR025
 U 1 1 5FC8D4AE
@@ -209,17 +207,15 @@ $EndComp
 Wire Wire Line
 	2250 7350 2250 7250
 Connection ~ 2250 7250
-Connection ~ 4200 6800
-Connection ~ 4200 7250
-Wire Wire Line
-	4200 6800 4350 6800
+Connection ~ 4500 6800
+Connection ~ 4500 7250
 $Comp
 L Regulator_Linear:L7805 U7
 U 1 1 5FCFEA15
 P 3800 6800
 F 0 "U7" H 3800 7042 50  0000 C CNN
 F 1 "MC7805CTG" H 3800 6951 50  0000 C CNN
-F 2 "digikey-footprints:TO-220-3" H 3800 6800 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3800 6800 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf" H 3800 6800 50  0001 C CNN
 F 4 "MC7805CTGOS-ND" H 3800 6800 50  0001 C CNN "Digi-Key Part"
 	1    3800 6800
@@ -228,16 +224,16 @@ $EndComp
 $Comp
 L power:+5V #PWR026
 U 1 1 5FD1106F
-P 4350 6700
-F 0 "#PWR026" H 4350 6550 50  0001 C CNN
-F 1 "+5V" H 4365 6873 50  0000 C CNN
-F 2 "" H 4350 6700 50  0001 C CNN
-F 3 "" H 4350 6700 50  0001 C CNN
-	1    4350 6700
+P 4500 6700
+F 0 "#PWR026" H 4500 6550 50  0001 C CNN
+F 1 "+5V" H 4515 6873 50  0000 C CNN
+F 2 "" H 4500 6700 50  0001 C CNN
+F 3 "" H 4500 6700 50  0001 C CNN
+	1    4500 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 6700 4350 6800
+	4500 6700 4500 6800
 Wire Wire Line
 	2150 6400 2250 6400
 Wire Wire Line
@@ -260,7 +256,7 @@ Wire Wire Line
 	1550 6600 1550 6700
 Wire Wire Line
 	2250 6600 2250 6700
-Connection ~ 3350 6800
+Connection ~ 2950 6800
 $Comp
 L power:+12V #PWR016
 U 1 1 5FFBC37D
@@ -1315,7 +1311,7 @@ F 4 "1286-1185-ND" H 8750 5050 50  0001 C CNN "Digi-Key Part"
 $EndComp
 Connection ~ 8550 5900
 Wire Wire Line
-	4200 7250 5350 7250
+	4500 7250 5350 7250
 $Comp
 L power:+5V #PWR0102
 U 1 1 5FB5B8E2
@@ -1354,30 +1350,28 @@ $EndComp
 $Comp
 L Device:CP1_Small C2
 U 1 1 5FB7B8C7
-P 4200 6950
-F 0 "C2" H 4300 7000 50  0000 L CNN
-F 1 "10uF" H 4300 6900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 4200 6950 50  0001 C CNN
-F 3 "~" H 4200 6950 50  0001 C CNN
-F 4 "478-7366-1-ND" H 4200 6950 50  0001 C CNN "Digi-Key Part"
-	1    4200 6950
+P 4500 6950
+F 0 "C2" H 4600 7000 50  0000 L CNN
+F 1 "10uF" H 4600 6900 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 4500 6950 50  0001 C CNN
+F 3 "~" H 4500 6950 50  0001 C CNN
+F 4 "478-7366-1-ND" H 4500 6950 50  0001 C CNN "Digi-Key Part"
+	1    4500 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR0105
 U 1 1 5FC96CAB
-P 3150 6700
-F 0 "#PWR0105" H 3150 6550 50  0001 C CNN
-F 1 "+12V" V 3165 6828 50  0000 L CNN
-F 2 "" H 3150 6700 50  0001 C CNN
-F 3 "" H 3150 6700 50  0001 C CNN
-	1    3150 6700
+P 2950 6700
+F 0 "#PWR0105" H 2950 6550 50  0001 C CNN
+F 1 "+12V" V 2965 6828 50  0000 L CNN
+F 2 "" H 2950 6700 50  0001 C CNN
+F 3 "" H 2950 6700 50  0001 C CNN
+	1    2950 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 6700 3150 6800
-Wire Wire Line
-	3150 6800 3350 6800
+	2950 6700 2950 6800
 $Comp
 L greenface-symbols:Conn_02x08_Odd_Even_Female J9
 U 1 1 5FAE5A66
@@ -1890,4 +1884,61 @@ Wire Wire Line
 Connection ~ 2250 6700
 Wire Wire Line
 	2250 6700 2250 7250
+$Comp
+L greenface-symbols:small_logo GR2
+U 1 1 6229C31A
+P 6800 4600
+F 0 "GR2" H 6800 4815 50  0000 C CNN
+F 1 "big_logo" H 6800 4724 50  0000 C CNN
+F 2 "panel:logo_black" H 6800 4600 50  0001 C CNN
+F 3 "" H 6800 4600 50  0001 C CNN
+	1    6800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 622FF343
+P 4200 7000
+F 0 "C8" H 4292 7046 50  0000 L CNN
+F 1 ".1uF" H 4292 6955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 4200 7000 50  0001 C CNN
+F 3 "~" H 4200 7000 50  0001 C CNN
+F 4 "478-3188-ND" H 4200 7000 50  0001 C CNN "Digi-Key Part"
+	1    4200 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6900 4200 6800
+Connection ~ 4200 6800
+Wire Wire Line
+	4200 6800 4500 6800
+Wire Wire Line
+	4200 7100 4200 7250
+Connection ~ 4200 7250
+Wire Wire Line
+	4200 7250 4500 7250
+$Comp
+L Device:C_Small C3
+U 1 1 62324AA8
+P 3300 7000
+F 0 "C3" H 3392 7046 50  0000 L CNN
+F 1 ".33uF" H 3392 6955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 3300 7000 50  0001 C CNN
+F 3 "~" H 3300 7000 50  0001 C CNN
+F 4 "445-180638-1-ND" H 3300 7000 50  0001 C CNN "Digi-Key Part"
+	1    3300 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6900 3300 6800
+Connection ~ 3300 6800
+Wire Wire Line
+	3300 6800 3500 6800
+Wire Wire Line
+	3300 7100 3300 7250
+Wire Wire Line
+	2950 7250 3300 7250
+Connection ~ 3300 7250
+Wire Wire Line
+	3300 7250 3800 7250
 $EndSCHEMATC
