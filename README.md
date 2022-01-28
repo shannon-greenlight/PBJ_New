@@ -6,6 +6,32 @@ It requires the KiCAD libraries found at: https://github.com/shannon-greenlight/
 
 It also requires the Digi-Key footprint and symbol libraries available at: https://www.digikey.com/en/resources/design-tools/kicad
 
+Add these paths to the symbol libraries:
+
+dk_Sockets-for-ICs-Transistors	.../KiCAD/digikey-symbols/dk_Sockets-for-ICs-Transistors.lib		
+
+dk_Rectangular-Connectors-Headers-Male-Pins	.../KiCAD/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib		
+
+dk_Transistors-FETs-MOSFETs-Single	.../KiCAD/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib		
+
+dk_Trimmer-Potentiometers	.../KiCAD/digikey-symbols/dk_Trimmer-Potentiometers.lib		
+
+dk_Pushbutton-Switches	.../KiCAD/digikey-symbols/dk_Pushbutton-Switches.lib
+
+dk_Reed_Relays	.../KiCAD/digikey-symbols/dk_Reed-Relays.lib
+
+greenface-symbols	...\KiCAD\greenface-symbols.lib		
+
+
+Add these paths to the footprint libraries:
+
+digikey-footprints	.../KiCAD/digikey-footprints.pretty		
+
+panel	...\KiCAD\panel.pretty		
+
+sputterizer	...\KiCAD\sputterizer.pretty		
+
+
 The Excel file pbj_eu.xlsx can be uploaded directly to Digi-Key to order parts.
 
 Currently, only the PBJ EU is available. But a standalone version, the PBJ Solo, is in the wings.
