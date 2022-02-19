@@ -3702,7 +3702,7 @@
   )
 
   (symbol (lib_id "greenface-symbols:small_logo") (at 38.1 116.205 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607e8ca3)
     (property "Reference" "GR1" (id 0) (at 38.1 110.744 0))
     (property "Value" "small_logo" (id 1) (at 38.1 113.0554 0))
@@ -4574,7 +4574,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 217.17 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006141dd36)
     (property "Reference" "H1" (id 0) (at 219.71 144.7038 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4592,7 +4592,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 224.79 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061421097)
     (property "Reference" "H2" (id 0) (at 227.33 144.7038 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4610,7 +4610,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 232.41 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061421373)
     (property "Reference" "H3" (id 0) (at 234.95 144.7038 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4628,7 +4628,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 240.03 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006142165c)
     (property "Reference" "H4" (id 0) (at 242.57 144.7038 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4900,7 +4900,7 @@
   )
 
   (symbol (lib_id "greenface-symbols:small_logo") (at 38.1 128.905 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006229c31a)
     (property "Reference" "GR2" (id 0) (at 38.1 123.444 0))
     (property "Value" "big_logo" (id 1) (at 38.1 125.7554 0))
