@@ -6,7 +6,7 @@
 
   (title_block
     (title "PBJ EU")
-    (rev "4.9")
+    (rev "4.10")
   )
 
   (lib_symbols
