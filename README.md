@@ -1,6 +1,8 @@
 # PBJ_New
 PBJ Project (Proto Board with Jacks) -- For Synthesizer hardware development
 
+https://www.greenfacelabs.com/pbj-eu/
+
 This project provides the KiCAD files used to fab PBJ synthesizer development breadboards.
 It requires the KiCAD libraries found at: https://github.com/shannon-greenlight/KiCAD
 
