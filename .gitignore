@@ -70,6 +70,7 @@ spice/*.log
 
 # gerber
 rescue
+customers
 
 PBJ_EU/PBJ EU_transistor.sch
 PBJ_EU/*-cache.lib
