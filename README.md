@@ -14,13 +14,7 @@ dk_Sockets-for-ICs-Transistors	.../KiCAD/digikey-symbols/dk_Sockets-for-ICs-Tran
 
 dk_Rectangular-Connectors-Headers-Male-Pins	.../KiCAD/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib		
 
-dk_Transistors-FETs-MOSFETs-Single	.../KiCAD/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib		
-
-dk_Trimmer-Potentiometers	.../KiCAD/digikey-symbols/dk_Trimmer-Potentiometers.lib		
-
 dk_Pushbutton-Switches	.../KiCAD/digikey-symbols/dk_Pushbutton-Switches.lib
-
-dk_Reed_Relays	.../KiCAD/digikey-symbols/dk_Reed-Relays.lib
 
 greenface-symbols	...\KiCAD\greenface-symbols.lib		
 
