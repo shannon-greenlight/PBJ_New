@@ -3244,7 +3244,7 @@
     (uuid 00000000-0000-0000-0000-00005fcfea15)
     (property "Reference" "U7" (id 0) (at 96.52 166.5732 0))
     (property "Value" "MC7805CTG" (id 1) (at 96.52 168.8846 0))
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 96.52 172.72 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" (id 2) (at 96.52 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf" (id 3) (at 96.52 172.72 0)
@@ -5461,7 +5461,7 @@
       (reference "U2") (unit 3) (value "TL072") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fcfea15"
-      (reference "U7") (unit 1) (value "MC7805CTG") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "U7") (unit 1) (value "MC7805CTG") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
   )
 )
