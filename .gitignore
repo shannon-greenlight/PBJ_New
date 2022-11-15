@@ -62,15 +62,19 @@ fp-info-cache
 *.tmp
 *.sch-bak
 
+# gerber
 docs
+rescue
+customers
+img
+psd
+old_bom
+temp
 
 spice/*.raw
 spice/*.net
 spice/*.log
 
-# gerber
-rescue
-customers
 
 PBJ_EU/PBJ EU_transistor.sch
 PBJ_EU/*-cache.lib
@@ -82,8 +86,3 @@ PBJ_EU/sym-lib-table
 PBJ_EU/fp-lib-table
 PBJ_EU/PBJ_EU-backups
 
-img
-psd
-old_bom
-
-temp

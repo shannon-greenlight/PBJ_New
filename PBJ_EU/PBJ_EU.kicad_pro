@@ -55,7 +55,25 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|123000000|155540000|066afe7b-0fc0-4651-a8cc-45e1c56fe84b|6e8ab0a5-2f84-4bbf-a307-8d635828cf39",
+        "silk_over_copper|134990000|155540000|066afe7b-0fc0-4651-a8cc-45e1c56fe84b|c7f96ec5-335d-4f37-97fd-15d3b25c9d28",
+        "silk_over_copper|55500000|155460000|9f1ca334-299d-4ff0-a3e5-6f2a2b11213d|d9976bfe-205e-435c-805a-f546d7d0effb",
+        "silk_over_copper|67500000|155460000|9f1ca334-299d-4ff0-a3e5-6f2a2b11213d|370d6d02-4d43-4982-95d0-ea841ea44e43",
+        "silk_over_copper|95050000|92000000|06b54f10-345c-4763-b92a-2a84cdc749bc|ce0187a0-4aaf-4c9b-bf44-ab7e2d2008ed",
+        "silk_overlap|100650000|121670000|704cb959-5538-408b-8d10-a73ae5bcfd65|b4c695db-36ae-4f09-b133-d03519e35e8a",
+        "silk_overlap|100650000|121670000|b4c695db-36ae-4f09-b133-d03519e35e8a|704cb959-5538-408b-8d10-a73ae5bcfd65",
+        "silk_overlap|123987192|156947945|032e41f5-ef8c-4d93-ad44-b1133b6db1ca|066afe7b-0fc0-4651-a8cc-45e1c56fe84b",
+        "silk_overlap|124747553|155540000|066afe7b-0fc0-4651-a8cc-45e1c56fe84b|032e41f5-ef8c-4d93-ad44-b1133b6db1ca",
+        "silk_overlap|133358687|154859757|057d6ecc-b3d9-48ba-8709-708ac2c845cf|066afe7b-0fc0-4651-a8cc-45e1c56fe84b",
+        "silk_overlap|134229639|157078906|057d6ecc-b3d9-48ba-8709-708ac2c845cf|066afe7b-0fc0-4651-a8cc-45e1c56fe84b",
+        "silk_overlap|56260361|153921094|76137da8-61a8-4ae0-9902-e9599ba20e8e|9f1ca334-299d-4ff0-a3e5-6f2a2b11213d",
+        "silk_overlap|56487192|155460000|9f1ca334-299d-4ff0-a3e5-6f2a2b11213d|76137da8-61a8-4ae0-9902-e9599ba20e8e",
+        "silk_overlap|66512808|155460000|9f1ca334-299d-4ff0-a3e5-6f2a2b11213d|d5c4d04b-30dc-4382-877d-5999b1d17513",
+        "silk_overlap|66512808|156947945|d5c4d04b-30dc-4382-877d-5999b1d17513|9f1ca334-299d-4ff0-a3e5-6f2a2b11213d",
+        "silk_overlap|90850000|121670000|f54fc69f-06a1-422c-abaa-6c3803ec7df3|b4c695db-36ae-4f09-b133-d03519e35e8a",
+        "via_dangling|134470000|139610000|15248487-25eb-4690-95b5-603133f70fd3|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -120,12 +138,28 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.1,
+        0.12,
+        0.2,
+        0.6
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
