@@ -1,4 +1,7 @@
 # PBJ_New
+# This project has been replaced by PBJ_EU_3.
+
+
 PBJ Project (Proto Board with Jacks) -- For Synthesizer hardware development
 
 https://www.greenfacelabs.com/pbj-eu/
